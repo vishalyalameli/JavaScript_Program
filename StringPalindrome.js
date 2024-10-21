@@ -19,13 +19,30 @@
 // console.log(isPalindrome('hello'));
 
 
-function isPalindrome(str){
+// function isPalindrome(str){
 
-    const reverserd =str. replace(/[^a-z0-9]/gi, '').toLowerCase();
+//     const reverserd =str. replace(/[^a-z0-9]/gi, '').toLowerCase();
 
-    const reverse = reverserd.split('').reverse().join('');
+//     const reverse = reverserd.split('').reverse().join('');
 
-     return reverse === reverserd;
+//      return reverse === reverserd;
+// }
+// console.log(isPalindrome('racecar')); //true
+// console.log(isPalindrome('hello')); //false
+
+function isPalindrome(num){
+
+    let str = num.toString();
+
+    let reverse = str.split('').reverse().join('');
+
+    return reverse ===  str ;
+
 }
-console.log(isPalindrome('racecar')); //true
-console.log(isPalindrome('hello')); //false
+console.log(isPalindrome(456));
+console.log(isPalindrome(121));
+console.log(isPalindrome(123));
+console.log(isPalindrome(0));
+console.log(isPalindrome(1));
+
+
