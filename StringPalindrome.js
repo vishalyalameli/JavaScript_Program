@@ -6,7 +6,7 @@
 
 //     let reverserd = '';
 //     for(let i = lowerStr.length-1 ; i>= 0; i--){
-//         reverserd +=lowerStr[i];
+//         reverserd +=lowerStr[i];                  //  reversed = reversed + lowerStr[i]
 //     }
 //     if(lowerStr === reverserd){
 //         return true; 
@@ -44,5 +44,14 @@ console.log(isPalindrome(121));
 console.log(isPalindrome(123));
 console.log(isPalindrome(0));
 console.log(isPalindrome(1));
+
+
+let num = 5;
+num *= 2;  // Equivalent to: num = num * 2;
+
+console.log(num);  // Output: 10
+variable *= value;
+variable = variable * value;
+
 
 
