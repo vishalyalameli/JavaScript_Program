@@ -1,3 +1,4 @@
+// Write a JavaScript program to calculate the factorial of a given number
 function Factorial(n){
     if ( n === 0 || n === 1){
         return 1;
