@@ -1,3 +1,5 @@
+// Write a JavaScript program to find the largest element in a nested array. 
+
 function isLargestArray(arr){
     let largest = -Infinity;
 
@@ -18,3 +20,4 @@ function isLargestArray(arr){
 }
 const number = [1,[2,[3,[8,[45]]]]]
 console.log(isLargestArray(number));
+
