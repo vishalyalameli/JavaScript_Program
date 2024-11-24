@@ -12,3 +12,9 @@ console.log(a,b);
 
 // console.log("a:", a, "b:", b );
 
+
+
+let vishal = "abcdefg"
+let result = vishal.split("").join("+");
+
+console.log((result));
