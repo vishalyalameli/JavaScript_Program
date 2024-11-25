@@ -13,7 +13,7 @@ console.log(a,b);
 // console.log("a:", a, "b:", b );
 
 
-
+// some string give and then the o/p are the  include  + sign
 let vishal = "abcdefg"
 let result = vishal.split("").join("+");
 
