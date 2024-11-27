@@ -9,11 +9,36 @@
 // console.log(reverseString('1233'));
 // console.log(reverseString("45545"));
 
-function reverseNumber(num){
+// function reverseNumber(num){
 
-    let reverse = num.toString();
-     return reverse.split('').reverse().join('');
+//     let reverse = num.toString();
+//      return reverse.split('').reverse().join('');
+// }
+// console.log(reverseNumber(4555));
+// console.log(reverseNumber(458965));
+// console.log(reverseNumber(258));
+
+
+const isreverse =(str) =>{
+    let reverse = " ";
+    for(let char = str.length-1; char>=2; char--){
+        reverse = reverse + str[char];
+
+    }
+    return reverse
 }
-console.log(reverseNumber(4555));
-console.log(reverseNumber(458965));
-console.log(reverseNumber(258));
+console.log(isreverse("vishal yalamei"));
+//Execution Flow:
+
+ 
+// Palindrome
+
+const isPalindrome =(str) =>{
+    let reverse = "";
+    for (let char = str.length-1; char>=0 ;char--){
+        reverse =reverse + str[char];
+       
+    }
+    return str == reverse ? true : false
+}
+console.log(isPalindrome("level"));
