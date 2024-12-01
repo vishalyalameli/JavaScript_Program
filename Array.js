@@ -96,3 +96,82 @@ let fruuit = ["apple", "mango", "banna"]
 console.log(fruuit.push("guva"));
 console.log(fruuit);
 
+// splice( ) it can be use the removing or replacing the content of an array ............................
+// it can be return empty array  ([])
+let art = ["apple","mango","banana","water"]
+
+// art.splice(1,1);
+
+art.splice(-1,1, "grapes");
+console.log(art);
+
+// searching and filter method ................................................
+//indexOf method:  the indexOf method returns the first index at which given element can be found  syntx: indexOf(searchElement , fromIndex)
+ 
+// let number = [ 1,2,3,4,5,6,7,8,9]
+
+// console.log(number.indexOf(4,5));
+// const reult = number.indexOf(4);
+// console.log(reult); // o/p : 3
+
+// lastIndexOf(): it can be searched for the backwords....................................
+
+// const number = [1,2,6,3,4,5,6,7,8,8,9]
+// const result =  number.lastIndexOf(6);
+// console.log(result);
+
+// Add dec at the end of the month..............
+
+// const month = ["Jan","feb","march","jun","july"]
+
+//  month.splice(month.length,0,"Dec");
+// console.log(month);
+
+// update march to MARCH..................
+
+// const month = ["jan","feb"," march"]
+// month.splice(2,3,"MARCH");
+// console.log(month);
+
+// delete method ...........................
+
+// const month = ["jan","feb","march","april"]
+// month.splice(1,1);
+// console.log(month);
+
+// Filter and find and search............................
+
+// const number = [1,2,3,4,5,6,7,8,9]
+
+// const result = number.find((curElem) => {
+//     return curElem > 6
+// })
+
+// console.log(result);
+
+// OR.........
+
+//  const num = [1,2,3,4,5,6,7,8,9]
+//  let result = null
+//  for( let i = 0; i<num.length;i++){
+//     if(num[i] > 6){
+//         result = num[i];
+//         break;
+//     }
+//  }
+//  console.log(result);
+
+// filter uniques values
+  // filter ()  filter  it can  used for the  all record can be show [ { name: 'banana', price: '600' }, { name: 'mango', price: '800' } ]
+  // find () method it can be used for the specific data or an condition show  // { name: 'banana', price: '600' }
+
+const product = [
+    {name :"apple", price:"500"},
+    {name:"banana", price:"600"},
+    {name:"mango", price:"800"}
+]
+
+const result = product.find((curEle) =>{
+   return curEle.price >500;
+});
+console.log(result);
