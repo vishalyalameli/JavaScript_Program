@@ -165,13 +165,39 @@ console.log(art);
   // filter ()  filter  it can  used for the  all record can be show [ { name: 'banana', price: '600' }, { name: 'mango', price: '800' } ]
   // find () method it can be used for the specific data or an condition show  // { name: 'banana', price: '600' }
 
-const product = [
-    {name :"apple", price:"500"},
-    {name:"banana", price:"600"},
-    {name:"mango", price:"800"}
-]
+// const product = [
+//     {name :"apple", price:"500"},
+//     {name:"banana", price:"600"},
+//     {name:"mango", price:"800"}
+// ]
 
-const result = product.find((curEle) =>{
-   return curEle.price >500;
-});
+// const result = product.find((curEle) =>{
+//    return curEle.price >500;
+// });
+// console.log(result);
+
+// findIndex ( ) it can be find the  index number ..................................... .......
+
+// const   num = [1,2,3,4,5,6,7,8,9]
+
+// const result1 = num.map((curElem) =>{
+//   return curElem*5;
+
+// });
+// console.log(result1);
+
+// const result = num.findIndex((curElem) =>{
+
+//   return curElem >5;
+// });
+// console.log(result);
+
+// filter Unique values  it can be use filter( ) and  indexOf( ) .....................
+ // filter it can be remove the duplicate element
+const num = [1,2,2,3,4,5,6,5]
+
+let result = num.filter((curElem, index,arr)=>{ 
+
+  return arr.indexOf(curElem) === index;
+})
 console.log(result);
