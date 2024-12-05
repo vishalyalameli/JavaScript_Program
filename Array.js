@@ -194,10 +194,82 @@ console.log(art);
 
 // filter Unique values  it can be use filter( ) and  indexOf( ) .....................
  // filter it can be remove the duplicate element
-const num = [1,2,2,3,4,5,6,5]
+// const num = [1,2,2,3,4,5,6,5]
 
-let result = num.filter((curElem, index,arr)=>{ 
+// let result = num.filter((curElem, index,arr)=>{ 
 
-  return arr.indexOf(curElem) === index;
-})
-console.log(result);
+//   return arr.indexOf(curElem) === index;
+// })
+// console.log(result);
+
+// return the string in capitalized.................................................. 
+
+// const str = ["Apple","Mango", "banana","Water"]
+
+// const result =  str.map((CurElem)=>{
+//    return CurElem.toUpperCase();
+// })
+
+//even  array find ...................................
+
+// const num = [1,2,3,4,5,6,7,8,10]
+// const result = num.filter((curEle) =>{
+//   if( curEle %2 ==0){
+//     return curEle;
+//   }
+
+// })
+// console.log(result);
+
+// without in-built function ...................................
+// const num = [1,2,3,4,5,6,7,8,10]
+// let result= [ ]
+// for(let i =0; i< num.length; i++){
+//   if(num[i] % 2 ==0){
+//     result[result.length]= num[i];
+//   }
+
+// }
+// console.log(result);
+// o/p :[ 2, 4, 6, 8, 10 ]
+
+
+//  prefix name new arry all name start with Mr. .....................................
+
+// const str = ["Vishal", "vikas", "vilas", "Yash"]
+// const result = str.map((curEle) =>{
+//   return `Mr ${curEle}`
+// })
+// console.log(result);
+
+ // without in-built function ...................................
+
+// const str = ["Vishal","vikas","vilas","yash"]
+// let result =  []
+// for(let i=0; i<str.length; i++){
+//   result[result.length] = "Mr " + str[i];
+// }
+// console.log(result);
+
+
+// calculate  price calculate ................................
+
+// const num = [101,200,300,400,500]
+// const result = num.reduce((accum, curEle) =>{
+//   return  accum + curEle
+// })
+// console.log(result);
+
+const  num  = [100,200,300,400,500]
+
+let sum = 0;
+for(let i = 0; i<num.length; i++){
+   sum += num[i] // sum = sum + num[i]
+}
+
+console.log(sum);
+
+
+
+
+
