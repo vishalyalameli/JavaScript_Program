@@ -45,7 +45,7 @@
 
 // slice( ) extract a part of string and returns the extracted part in a new  string...........................
 // slice(start ,end)
- 
+
 // let str =  "hello world";
 
 // let result = str.slice(6);
@@ -68,10 +68,10 @@
 // console.log(result);
 
 // CharCodeAt(): the given charcodeAt() method it return the character at specified index value .....................................
- //note:  it return the index value code 
- // charcode of the capital A and small a is different work
+//note:  it return the index value code 
+// charcode of the capital A and small a is different work
 
- //A:65;
+//A:65;
 
 //  let text = "Vishal Yalameli";
 //  let result = text.charCodeAt(5);  // 108
@@ -88,7 +88,7 @@
 //At(-4)
 
 //char
- 
+
 
 // CharAt( ):
 //it  can be only positive  index 
@@ -102,7 +102,7 @@
 // console.log(result);
 
 // trim()  it can be remove the space  first and last ..................................................
- 
+
 // let  text = " vishal  Yalameli           ";
 // let result = text.trim();
 // console.log(result);
@@ -135,7 +135,7 @@
 //  console.log(`Result : "${result}"`);
 //  console.log(` start Index :${start}`); //3
 //  console.log(`end index ${end}`); // 17 
- //Vishal Yalameli  // start
+//Vishal Yalameli  // start
 //  Result : Vishal Yalameli
 //  start Index :3
 // end index 17
@@ -167,5 +167,31 @@
 // reverse( ).........................................
 // an array  can be return the used for the split (" ,").reverse( );
 
-let text = ""
+// let text = "Hello world";
+// let result = text.split(" ").reverse();
+// console.log(result);
+// [ 'world', 'Hello' ]
+
+// print the a to z alphabet 
+// console.log("a".charCodeAt(0)); //97
+// console.log("z".charCodeAt(0));//122
+
+// for(let char = 97 ; char <= 122; char++){
+//     console.log(String.fromCharCode(char));
+// }
+
+ // check vowels ......................................
+// const cheVoweslornot = (str) => {
+//     const vowels = "aeiou";
+//     for (let char of vowels) {
+//         // console.log(char);
+//         //console.log(str.includes(char));
+//         if (!str.includes(char)) {
+//             return false
+//         }
+//     }
+//     return true;
+// };
+// console.log(cheVoweslornot("aeiou"));
+//true
 
