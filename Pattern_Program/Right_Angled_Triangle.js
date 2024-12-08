@@ -9,3 +9,9 @@ function rightAngle(row){
 
 }
 rightAngle(5);
+
+// *
+// **
+// ***
+// ****
+// *****
