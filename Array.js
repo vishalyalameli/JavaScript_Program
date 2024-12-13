@@ -22,7 +22,7 @@ console.log(fruitss);
 
 // [ 'mango', 'banna', 'apple', 'orange', 'Vishal' ]
 
-// For...... of Loop  it can be return  value in side the arrays 
+// For...... of Loop  it can be return  value in side the arrays ...................................
 
 let Vfruit = ["a","b", "c","d"];
 
@@ -35,7 +35,7 @@ let Vfruit = ["a","b", "c","d"];
 //     console.log(Vfruit[item]);
 // }
 
-// for.....In Loop it can br return index number 
+// for.....In Loop it can br return index number ............................................
 
 
 for(let item in Vfruit){
