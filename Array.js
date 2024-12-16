@@ -269,7 +269,29 @@ for(let i = 0; i<num.length; i++){
 
 console.log(sum);
 
+// VImp question ....................................................
 
+// const arr = [1,2,"3","Ram", "vishal" , "vikas","vilas"]
+// const result = arr.filter((x)=>{
+//   if(parseInt(x)){
+//     return x;
+//   }
+// })
+// console.log(result);
+
+// when use  (!parseInt(x))  ======>>>        [ 'Ram', 'vishal', 'vikas', 'vilas' ]
+// when use (parseInt(x))    ======>>>        [ 1, 2, '3' ]
+
+const arr = [1,2,"3", "vishal","vikas","vilas"]
+const result = arr.filter((x) =>{
+  if(!isNaN(x) && typeof x!== "string"){
+    return true;  
+  }else if(!isNaN(parseInt(x)) && typeof x === "string"){
+     return true;
+     }
+  
+});
+console.log(result);
 
 
 
