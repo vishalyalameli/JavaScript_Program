@@ -30,3 +30,25 @@ const foundObjectt = obje[taargetId];
 console.log(foundObjectt);
   
 
+//  what will  be output.......................................
+
+// const target = {a:1, b:2};
+// const source = {b:3,c:4};
+
+// const mergedobject = Object.assign( { } ,target , source);
+// console.log(mergedobject);
+
+// { a: 1, b: 3, c: 4 }
+
+// page No 16 ....................................
+
+ const Student = {
+    name: "vishal",
+    age: 23,
+    grades:{
+        marathi: 85,
+        science: 90,
+        History:80,
+    },
+
+ }
