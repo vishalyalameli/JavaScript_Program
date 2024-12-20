@@ -13,3 +13,19 @@ function generatePermutations(arr, current,result){
          }
     }
 }
+let arr = [9,8,5,4];
+let result = [ ];
+generatePermutations(arr, [] , result);
+console.log(result);
+
+/*[
+    9854, 9845, 9584, 9548,
+    9854, 9845, 9584, 9548,
+    9485, 9458, 8954, 8945,
+    9485, 9458, 8954, 8945,
+    8594, 8549, 8495, 8459,
+    5984, 5948, 5894, 5849,
+    5498, 5489, 4985, 4958,
+    4895, 4859, 4598, 4589
+  ]*/
+
