@@ -35,7 +35,7 @@ let Vfruit = ["a","b", "c","d"];
 //     console.log(Vfruit[item]);
 // }
 
-// for.....In Loop it can br return index number ............................................
+// for.....In Loop it can be return index number ............................................
 
 
 for(let item in Vfruit){
