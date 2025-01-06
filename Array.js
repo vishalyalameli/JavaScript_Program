@@ -293,5 +293,51 @@ const result = arr.filter((x) =>{
 });
 console.log(result);
 
+// Find largest number in array....................................................................
+
+let num1 = [3,6,9,12,2,4,];
+let largest1 = num1[0];
+
+for(let i = 1; i<num1.length; i++){
+  if(num1[i] > largest1){    // <  use smallest number find
+    largest1 = num1[i];
+  }
+}
+console.log("The largest number:",largest1);
+// o/p
+// The largest number: 12
+
+
+// using Sort ............. ........................................................  easy 
+
+let numb = [3,6,9,12,2,4];
+
+
+numb.sort((a,b) => b-a);  // descending order [12,9,6,4,3,2]
+
+//numb.sort((a,b) => a-b);  // ascending order  [ 2,3,4,6,9,12]
+
+let firstlargest = numb[2];
+
+console.log(firstlargest);
+// o/p: 6
+
+/*
+Compare 3 and 6: b - a = 6 - 3 = 3 → 6 is greater than 3, so no swap needed.
+Compare 3 and 9: b - a = 9 - 3 = 6 → 9 is greater than 3, so 3 and 9 are swapped.
+Compare 3 and 12: b - a = 12 - 3 = 9 → 12 is greater than 3, so 3 and 12 are swapped.
+Compare 3 and 2: b - a = 3 - 2 = 1 → no swap needed (3 is greater).
+Compare 3 and 4: b - a = 4 - 3 = 1 → no swap needed (4 is greater).
+Compare 6 and 9: b - a = 9 - 6 = 3 → 9 is greater, so 6 and 9 are swapped.
+Compare 6 and 12: b - a = 12 - 6 = 6 → 12 is greater, so 6 and 12 are swapped.
+Continue comparing, and the array becomes: [12, 9, 6, 4, 3, 2].
+
+The Sorting Process:
+When comparing two elements, say a and b, the result of b - a determines their order.
+If the result is positive (b > a), b comes first (no need to swap).
+If the result is negative (b < a), a comes first (swap).
+If the result is zero (b === a), their order remains unchanged.
+
+*/
 
 
