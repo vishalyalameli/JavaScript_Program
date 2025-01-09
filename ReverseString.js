@@ -27,7 +27,7 @@ const isreverse =(str) =>{
     }
     return reverse
 }
-console.log(isreverse("vishal yalamei"));
+console.log(isreverse("xyz"));
 //Execution Flow:
 
  

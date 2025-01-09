@@ -6,7 +6,7 @@ const object = [
        { "id":2 , name : "vikas"},
         {"id":3 , name : "vilas"},
     
-];
+]; 
 
 const  targetId = 1;
 const foundObject =  object.find(obj => obj.id === targetId);
