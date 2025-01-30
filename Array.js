@@ -1,6 +1,6 @@
 
 // Constructor Array
-let fruit = new Array("mango","Apple","Pizza");
+let fruit = new Array("mango","Apple","Pizza"); //
 
 console.log(fruit);
 
